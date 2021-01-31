@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,61 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+svg, input {
+  margin: 0 auto;
+  display: block;
+}
+
+.arc {
+  stroke: black;
+}
+
+.bin-count {
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+  background-color: #5a0071;
+  color: white;
+  font-family: sans-serif;
+}
+
+form > input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+form > button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #d0d0f9;
+  border: none;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: #6a6a8e;
+}
+
+#letters {
+  margin: 20px auto 0;
+  width: 800px;
+  height: 600px;
+}
+
+.letter rect {
+  fill: #bad1ad;
+}
+
+.letter text {
+  font-size: 1.5em;
+}
+
+.new rect {
+  fill: #bada55;
 }
